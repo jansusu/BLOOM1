@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+*{
+  font-family: "Playwrite DE Grund", cursive;
+}
+.adm1{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        padding-top: 80px;
+}
+.adm1 .dropdown{
+        border: solid;
+        background-color: rgb(62, 4, 80);
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        padding-top: 10px;
+        margin: 0px 30px 0px 30px;
+        display: none;
+}
+
+.sidebar .dropdown{
+        border: solid;
+        background-color: rgb(62, 4, 80);
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        padding-top: 10px;
+        margin: 0px 30px 0px 30px;
+        display: none;
+}
+ 
+.side{
+        background-color: rgb(245, 183, 235);
+        padding: 50px;
+}
+.lin{
+        text-decoration: none;
+        color: white;
+      }
+.sidebar{
+        background-color: bisque;
+        padding: 40px 0px 20px 20px;
+        height: 130vh;
+        
+}   
+h2{
+        text-align: center;
+        padding: 18px;
+        cursor: pointer;
+        
+}  
+.sidepa:hover .dropdown  {
+        display: block;
+        cursor: pointer;
+        transition: all 1s;
+} 
+.dash img{
+        height: 700px;
+        width: 900px;
+}
